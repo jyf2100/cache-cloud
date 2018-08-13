@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.sohu.tv</groupId>
+  <artifactId>cachecloud-open-parent</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180810080153</lastUpdated>
+  </versioning>
+</metadata>

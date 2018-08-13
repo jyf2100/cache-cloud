@@ -1,0 +1,36 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>it.sauronsoftware.cron4j</groupId>
+  <artifactId>cron4j</artifactId>
+  <version>2.2.5</version>
+  <packaging>jar</packaging>
+
+  <name>cron4j</name>
+  <description>cron4j is a scheduler for the Java platform which is very similar to the UNIX cron daemon.</description>
+  <url>http://www.sauronsoftware.it/projects/cron4j/</url>
+
+  <licenses>
+    <license>
+      <name>GNU General Lesser Public License (LGPL) version 2.1</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>http://sourceforge.net/p/cron4j/code</url>
+    <connection>svn://svn.code.sf.net/p/cron4j/code/</connection>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>cpelliccia</id>
+      <name>Carlo Pelliccia</name>
+      <email>cpelliccia@sauronsoftware.it</email>
+    </developer>
+  </developers>
+
+  <dependencies>
+    <!-- cron4j has no maven dependencies -->
+  </dependencies>
+</project>
