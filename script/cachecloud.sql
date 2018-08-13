@@ -749,6 +749,7 @@ CREATE TABLE `machine_info` (
   `groupId` int(11) NOT NULL DEFAULT '0' COMMENT '机器分组，默认为0，表示原生资源，非0表示外部提供的资源(可扩展)',
   `type` int(11) NOT NULL DEFAULT '0' COMMENT '0原生 1 其他',
   `extra_desc` varchar(255) COLLATE utf8_bin DEFAULT NULL COMMENT '对于机器的额外说明(例如机器安装的其他服务(web,mysql,queue等等))',
+  `collect` tinyint(8) unsigned NOT NULL DEFAULT '0' COMMENT '是否开启主机信息收集，0表示否，1表示是',
   PRIMARY KEY (`id`),
   UNIQUE KEY `ip` (`ip`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='保存机器的静态信息';
